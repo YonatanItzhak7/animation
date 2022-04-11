@@ -1,0 +1,296 @@
+.div1 {
+  width: 12vw;
+  height: 12vw;
+  border: 1px solid black;
+  animation-name: bluetogreen;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bluetogreen {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: green;
+  }
+}
+
+.div2 {
+  width: 18vw;
+  height: 10vw;
+  border: 1px solid black;
+  animation-name: bluegreenyellow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bluegreenyellow {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+#spideyface {
+  width: 10vw;
+  height: 30vh;
+  animation-name: spideyface;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes spideyface {
+  from {
+    filter: brightness(100%);
+  }
+  to {
+    filter: brightness(20%);
+  }
+}
+
+#spideylogo {
+  width: 15vw;
+  height: 30vh;
+  animation-name: spideylogo1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes spideylogo1 {
+  from {
+    filter: opacity(1);
+  }
+  to {
+    filter: opacity(0);
+  }
+}
+
+.divplus {
+  width: 8vw;
+  height: 8vw;
+  position: relative;
+  animation: squre 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes squre {
+  from {
+    background: orange;
+    left: 100px;
+    right: 0px;
+  }
+  to {
+    background: rgb(255, 0, 221);
+    left: 0px;
+    right: 100px;
+  }
+}
+
+.divtop {
+  width: 8vw;
+  height: 8vw;
+  animation: squretwo 3s infinite alternate;
+}
+
+@keyframes squretwo {
+  0% {
+    background-color: red;
+    transform: translateY(40px);
+  }
+  33% {
+    background-color: green;
+    transform: translateY(0px);
+  }
+  69% {
+    background-color: yellow;
+    transform: translateY(40px);
+  }
+  100% {
+    background-color: lightblue;
+    transform: translateY(0px);
+  }
+}
+
+#spideystand {
+  width: 15vw;
+  height: 30vh;
+  animation: spideystand 3s infinite alternate;
+}
+
+@keyframes spideystand {
+  from {
+    filter: drop-shadow(30px 10px 0px black);
+  }
+  to {
+    filter: drop-shadow(30px 10px 30px yellow);
+  }
+}
+
+#swing {
+  width: 15vw;
+  height: 30vh;
+  animation: spideyswing 3s infinite alternate;
+}
+
+@keyframes spideyswing {
+  from {
+    filter: sepia(1);
+  }
+  to {
+    filter: sepia(0);
+  }
+}
+
+#spidey123 {
+  width: 15vw;
+  height: 30vh;
+  animation: spidey12 1s infinite alternate;
+}
+
+@keyframes spidey12 {
+  from {
+    filter: blur(10px);
+  }
+  to {
+    filter: blur(0px);
+  }
+}
+
+.width {
+  background-color: purple;
+  width: 8vw;
+  height: 8vh;
+  animation: width 5s infinite alternate;
+}
+
+@keyframes width {
+  from {
+    width: 30px;
+  }
+  to {
+    width: 100px;
+  }
+}
+
+.height {
+  background-color: blue;
+  width: 8vw;
+  height: 8vh;
+  animation: height 5s infinite alternate;
+}
+
+@keyframes height {
+  0% {
+    width: 10px;
+  }
+  33% {
+    width: 30px;
+  }
+  69% {
+    width: 70px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+#spidey1 {
+  width: 15vw;
+  height: 30vh;
+  animation: spideyface1 5s infinite alternate;
+}
+
+@keyframes spideyface1 {
+  from {
+    width: 15vw;
+    height: 30vh;
+  }
+  to {
+    width: 10vw;
+    height: 15vh;
+  }
+}
+
+.big {
+  width: 8vw;
+  height: 8vw;
+  background-color: brown;
+  animation: big 1s infinite alternate;
+}
+
+@keyframes big {
+  from {
+    width: 8vw;
+    height: 8vh;
+    transform: translateX(100px);
+  }
+  to {
+    width: 10vw;
+    height: 10vh;
+    transform: translateX(0px);
+  }
+}
+
+.circle {
+  background-color: aqua;
+  width: 8vw;
+  height: 15vh;
+  border-radius: 100%;
+  animation: circle1 1s alternate;
+}
+
+@keyframes circle1 {
+  from {
+    width: 8vw;
+    height: 15vh;
+    transform: translateY(100px);
+  }
+  to {
+    width: 13vw;
+    height: 20vh;
+    transform: translateY(0px);
+  }
+}
+
+#black1 {
+  width: 15vw;
+  height: 30vh;
+}
+
+#black1:hover {
+  animation: black12 2s infinite alternate;
+}
+
+@keyframes black12 {
+  0% {
+    width: 15vw;
+    height: 30vh;
+    filter: drop-shadow(5px 5px 2px blue) saturate(0%);
+  }
+  33% {
+    width: 17vw;
+    height: 32vh;
+    filter: drop-shadow(5px 5px 2px red) saturate(33%);
+  }
+  69% {
+    width: 19vw;
+    height: 34vh;
+    filter: drop-shadow(5px 5px 2px yellow) saturate(69%);
+  }
+  100% {
+    width: 22vw;
+    height: 36vh;
+    filter: drop-shadow(5px 5px 2px green) saturate(100%);
+  }
+}
